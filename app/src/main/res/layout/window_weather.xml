@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/window_weather"
+    android:layout_width="match_parent"
+    android:layout_height="325dp">
+
+    <TextView
+        android:id="@+id/weather_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/weather_data"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location_part_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/location"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weather_data_tv" />
+
+    <TextView
+        android:id="@+id/city_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/city"
+        app:layout_constraintStart_toStartOf="@+id/location_part_tv"
+        app:layout_constraintTop_toBottomOf="@+id/location_part_tv" />
+
+    <TextView
+        android:id="@+id/country_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/country"
+        app:layout_constraintStart_toStartOf="@+id/location_part_tv"
+        app:layout_constraintTop_toBottomOf="@+id/city_tv" />
+
+    <TextView
+        android:id="@+id/weather_part_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/weather"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/location_part_tv"
+        app:layout_constraintTop_toBottomOf="@+id/country_tv" />
+
+    <TextView
+        android:id="@+id/weather_tp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/weather_type"
+        app:layout_constraintStart_toStartOf="@+id/weather_part_tv"
+        app:layout_constraintTop_toBottomOf="@+id/weather_part_tv" />
+
+    <TextView
+        android:id="@+id/temp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/temperature"
+        app:layout_constraintStart_toStartOf="@+id/weather_part_tv"
+        app:layout_constraintTop_toBottomOf="@+id/weather_tp_tv" />
+
+    <TextView
+        android:id="@+id/wind_sp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/wind_speed"
+        app:layout_constraintStart_toStartOf="@+id/weather_part_tv"
+        app:layout_constraintTop_toBottomOf="@+id/temp_tv" />
+
+    <TextView
+        android:id="@+id/wind_dir_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/wind_direction"
+        app:layout_constraintStart_toStartOf="@+id/weather_part_tv"
+        app:layout_constraintTop_toBottomOf="@+id/wind_sp_tv" />
+
+    <TextView
+        android:id="@+id/city_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="@string/city_placeholder"
+        app:layout_constraintBottom_toBottomOf="@+id/city_tv"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/country_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country_placeholder"
+        app:layout_constraintBottom_toBottomOf="@+id/country_tv"
+        app:layout_constraintEnd_toEndOf="@+id/city_data_tv" />
+
+    <TextView
+        android:id="@+id/type_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_placeholder"
+        app:layout_constraintBottom_toBottomOf="@+id/weather_tp_tv"
+        app:layout_constraintEnd_toEndOf="@+id/country_data_tv" />
+
+    <TextView
+        android:id="@+id/temp_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature_placeholder"
+        app:layout_constraintBottom_toBottomOf="@+id/temp_tv"
+        app:layout_constraintEnd_toEndOf="@+id/type_data_tv" />
+
+    <TextView
+        android:id="@+id/wind_sp_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/speed_placeholder"
+        app:layout_constraintBottom_toBottomOf="@+id/wind_sp_tv"
+        app:layout_constraintEnd_toEndOf="@+id/temp_data_tv" />
+
+    <TextView
+        android:id="@+id/wind_dir_data_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/direction_placeholder"
+        app:layout_constraintBottom_toBottomOf="@+id/wind_dir_tv"
+        app:layout_constraintEnd_toEndOf="@+id/wind_sp_data_tv" />
+
+    <ImageView
+        android:id="@+id/type_data_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:contentDescription="@string/weather_type_icon_description"
+        app:layout_constraintBottom_toBottomOf="@+id/type_data_tv"
+        app:layout_constraintEnd_toStartOf="@+id/type_data_tv"
+        app:layout_constraintTop_toTopOf="@+id/type_data_tv"
+        app:srcCompat="@color/cardview_dark_background" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Find My Weather</string>
+    <string-array name="weather_types">
+        <item>Clear</item>
+        <item>Atmospheric</item>
+        <item>Clouds</item>
+        <item>Drizzle</item>
+        <item>Rain</item>
+        <item>Thunderstorm</item>
+        <item>Snow</item>
+    </string-array>
+    <string-array name="winds">
+        <item>Light</item>
+        <item>Moderate</item>
+        <item>Strong</item>
+    </string-array>
+    <string-array name="wind_directions">
+        <item>Any</item>
+        <item>North</item>
+        <item>North-east</item>
+        <item>East</item>
+        <item>South-east</item>
+        <item>South</item>
+        <item>South-west</item>
+        <item>West</item>
+        <item>North-west</item>
+    </string-array>
+    <string-array name="wind_directions_alt">
+        <item>N</item>
+        <item>NE</item>
+        <item>E</item>
+        <item>SE</item>
+        <item>S</item>
+        <item>SW</item>
+        <item>W</item>
+        <item>NW</item>
+    </string-array>
+    <string name="sort_types">
+        <item>Overall</item>
+        <item>Weather type</item>
+        <item>Temperature</item>
+        <item>Wind</item>
+        <item>Wind direction</item>
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="radius">Radius</string>
+    <string name="get_weather">Get weather</string>
+    <string name="my_location">My location</string>
+    <string name="date">Date</string>
+    <string name="date_placeholder">(date)</string>
+    <string name="km">km</string>
+    <string name="order_symbol">#</string>
+    <string name="weather">Weather</string>
+    <string name="location">Location</string>
+    <string name="more">More</string>
+    <string name="weather_type">Weather type</string>
+    <string name="temperature">Temperature</string>
+    <string name="wind">Wind</string>
+    <string name="save">Save</string>
+    <string name="wind_direction">Wind direction</string>
+    <string name="celsius_symbol">°C</string>
+    <string name="atmospheric_explanation">(Mist, fog, dust, smoke, etc.)</string>
+    <string name="radius_label">radius</string>
+    <string name="temperature_label">temperature</string>
+    <string name="acquiring_location">Acquiring your location\nThis can take a few seconds…</string>
+    <string name="radius_number">Radius must be a number!</string>
+    <string name="choose_location">Chose a location first!</string>
+    <string name="radius_20">Radius must be at least 20km!</string>
+    <string name="radius_100">Radius can be 1000km at most!</string>
+    <string name="fetching_weather">Fetching weather\nThis can take a few seconds…</string>
+    <string name="error">Error</string>
+    <string name="continue_b">Continue</string>
+    <string name="location_providers_unavailable">Location providers unavailable. Choose the location by clicking on the map!</string>
+    <string name="notice">Notice</string>
+    <string name="unable_access_location">Unable to access your location. Choose the location by clicking on the map!</string>
+    <string name="unexpected_exception_deserializing">Unexpected exception occurred while deserializing data from server. Try again later!</string>
+    <string name="not_enough_weather_data">Not enough weather data available for chosen location and radius. Choose a different location or radius, or try again later!</string>
+    <string name="enable_internet">Enable internet access!</string>
+    <string name="sorted_overall">Sorted by most similar overall</string>
+    <string name="sorted_temperatures">Sorted by closest temperatures</string>
+    <string name="sorted_wind">Sorted by closest wind speeds</string>
+    <string name="sorted_wind_direction">Sorted by closest wind directions</string>
+    <string name="undefined">Undefined</string>
+    <string name="order_fill">- #</string>
+    <string name="meters_per_second">m/s</string>
+    <string name="temperature_number">Temperature must be a number!</string>
+    <string name="temperature_absolute_zero">Temperature can\'t be below -273.15 °C!</string>
+    <string name="some_data_unavailable">Data for some areas unavailable</string>
+    <string name="weather_data">Weather data</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="city_placeholder">(city)</string>
+    <string name="country_placeholder">(country)</string>
+    <string name="type_placeholder">(type)</string>
+    <string name="temperature_placeholder">(temperature)</string>
+    <string name="speed_placeholder">(speed)</string>
+    <string name="direction_placeholder">(direction)</string>
+    <string name="weather_type_icon_description">weather type icon</string>
+    <string name="acquired_location">Location acquired</string>
+    <string name="chosen_location">Chosen location</string>
+    <string name="settings_saved">Settings saved successfully</string>
+    <string name="res_desc">Weather on</string>
+    <string name="settings_desc">Preferred weather</string>
+</resources>
